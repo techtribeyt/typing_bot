@@ -5,7 +5,7 @@ import pyautogui
 import keyboard
 
 # Mention the installed location of Tesseract-OCR in your system 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Users/mykyt/AppData/Local/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'YOUR PATH'
 
 # function handles thresholding and using tesseract
 def get_text_from_img(img):
